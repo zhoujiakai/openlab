@@ -15,6 +15,43 @@ __pycache__/
 .ruff_cache/
 .venv/
 venv/
+*.egg-info/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+
+# Local environment and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+/deprecated/aliyun_face/config.yaml
+
+# Build outputs (Python, C/C++, and Rust)
+build/
+dist/
+target/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+*.o
+*.obj
+
+# Keil/STM32 build outputs and user settings
+Objects/
+Listings/
+*.axf
+*.hex
+*.uvguix.*
+*.uvoptx
+
+# Downloaded weights and exported models
+*.pt
+*.pth
+*.onnx
+*.rknn
 
 # Generated outputs
 results/
+runs/
+*.log
