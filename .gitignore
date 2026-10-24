@@ -59,4 +59,4 @@ runs/
 data/
 kaggle_boiler/temp/
 temp.py
-deprecated/
+temp/
