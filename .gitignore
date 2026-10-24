@@ -55,3 +55,7 @@ Listings/
 results/
 runs/
 *.log
+
+data/
+kaggle_boiler/temp/
+temp.py
