@@ -60,3 +60,4 @@ data/
 kaggle_boiler/temp/
 temp.py
 temp/
+deprecated/
